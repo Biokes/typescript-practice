@@ -1,5 +1,5 @@
 
-class Dayo{
+ export class Dayo{
     private name: string;
     private age : number;
     private size: number;

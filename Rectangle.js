@@ -1,3 +1,4 @@
+let Shape = require("./Shape")
 class Rectangle extends Shape{
     constructor(name, length, breadth){
         super(name);
