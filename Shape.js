@@ -6,3 +6,5 @@ class Shape{
         return this._name;
     }
 }
+
+module.exports = Shape;

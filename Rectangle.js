@@ -7,7 +7,15 @@ class Rectangle extends Shape{
   getArea(){
         return this._length* this._breadth;
   }
+  setLength(length){
+        this._length= length;
+  }
+  setBreadth(breadth){
+        this._breadth = breadth;
+    }
   isSquare(){
         return this._breadth*this._breadth=== this.length*this._breadth;
   }
 }
+
+module.exports = Rectangle;
